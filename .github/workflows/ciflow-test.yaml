@@ -31,3 +31,6 @@ jobs:
         with:
           stop-on-failure: true
 
+      - name: Deploy to Production
+        cmd:
+          echo "Deploy to production!!!"
